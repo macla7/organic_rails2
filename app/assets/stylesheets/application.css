@@ -14,11 +14,53 @@
  *= require_self
  */
 
- body {
-   display: flex;
-   justify-content: center;
-   border-color: navy;
-   border-width: 3px;
-   border-style: solid;
-   border-radius: 50%
- }
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  border-color: navy;
+  border-width: 3px;
+  border-style: solid;
+  border-radius: 3%;
+  width: 90vw;
+  margin: auto;
+  position: relative;
+  top: 10px
+}
+
+.bloc {
+  margin: 15px;
+  padding: 10px;
+  border-color: navy;
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 3%;
+  width: 85vw
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(97, 97, 97);
+  font-size: 16px
+}
+
+.links {
+  margin: 15px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-decoration: underline
+}
+
+#comment {
+  margin-left: 10px;
+}
+

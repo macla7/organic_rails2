@@ -1,5 +1,6 @@
 <h1>Articles</h1>
 
+
 <ul>
   <% @articles.each do |article| %>
     <li>
@@ -8,4 +9,7 @@
   <% end %>
 </ul>
 
-<%= link_to 'New Article', new_article_path %>
+<div class='links'>
+  <%= link_to 'New Article', new_article_path %>
+</div>
+
